@@ -77,8 +77,8 @@ class BowlingTest extends WebTestCase
 
     private function rollSpare()
     {
-        $this->bowling->roll(5);
-        $this->bowling->roll(5);
+        $this->bowling->roll(4);
+        $this->bowling->roll(6);
     }
 
     private function rollStrike()
